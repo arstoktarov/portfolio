@@ -3,7 +3,7 @@ import { logo } from '../assets';
 import { Button } from './';
 
 const ProjectItem = ({ 
-  image = logo, tags, title = 'BoschGame', description = ''
+  image = logo, tags, title = 'BoschGame', description = '', links = [],
  }) => {
 
   tags = tags || [
@@ -29,12 +29,13 @@ const ProjectItem = ({
             <h2 className="text-lg font-bold mb-2 text-white">{title}</h2>
             <p className="text-gray-300">{description != '' ? description : 'An educational game for workers at Bosch company'}</p>
             <div className='mt-3 flex flex-row'>
-              <div className='mr-2'>
-              <Button title="Github =>"/>
-              </div>
-              <div className='mr-2'>
-              <Button title="Github =>"/>
-              </div>
+              {
+                links.map((item, index) => (
+                  <div key={index} className='mr-2'>
+                    <Button title={`${item.title} =>`} onClick={()=> window.open(item.link, "_blank")}/>
+                  </div>
+                ))
+              }
             </div>
           </div>
         </div>

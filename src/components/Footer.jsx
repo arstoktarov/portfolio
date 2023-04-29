@@ -1,5 +1,7 @@
 import React from 'react';
 import { logo, github_icon, telegram_icon, linked_icon } from '../assets';
+import { media } from '../constants';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -23,9 +25,13 @@ const Footer = () => {
             <div className='flex flex-col mt-3'>
                 <h1 className='text-white text-[18px]'>Media</h1>
                 <div className='flex flex-row mt-2'>
-                    <img className='mr-1' src={github_icon} />
-                    <img className='mr-1' src={linked_icon} />
-                    <img className='mr-1' src={telegram_icon} />
+                    {
+                        media.map((item, index) => (
+                            <Link key={index} to={item.link} target='_blank' className='flex flex-row items-center justify-center p-1 w-[35px] h-[35px] overflow-hidden'>
+                                <img className='mr-1 w-[25px] h-[25px]' src={item.icon} />
+                            </Link>
+                        ))
+                    }
                 </div>
             </div>
         </div>

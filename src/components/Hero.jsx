@@ -39,7 +39,7 @@ const Hero = () => {
                 He crafts responsive websites where technologies meet creativity
             </p>
             <div className='mt-6'>
-                <Button title="Contact me ->"/>
+                <Button onClick={()=> window.open("https://t.me/arstoktarov", "_blank")} title="Contact me ->"/>
             </div>
         </div>
 

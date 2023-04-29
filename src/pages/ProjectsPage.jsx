@@ -20,7 +20,7 @@ const ProjectsPage = () => {
                     {
                         backProjects.map((item, index) => (
                             <div key={index} className='mr-4'>
-                                <ProjectItem title={item.title} image={item.image} description={item.description} tags={item.tags}/>
+                                <ProjectItem title={item.title} image={item.image} description={item.description} tags={item.tags} links={item.links}/>
                             </div>
                         ))
                     }
@@ -35,7 +35,7 @@ const ProjectsPage = () => {
                     {
                         frontProjects.map((item, index) => (
                             <div key={index} className='mr-4'>
-                                <ProjectItem title={item.title} image={item.image} description={item.description} tags={item.tags}/>
+                                <ProjectItem title={item.title} image={item.image} description={item.description} tags={item.tags} links={item.links}/>
                             </div>
                         ))
                     }

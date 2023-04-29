@@ -45,8 +45,12 @@ export const projects = [
         links: [
             {
                 title: 'GitHub',
-                link: 'https://github.com/'
+                link: 'https://github.com/arstoktarov/shoq.ai-front',
             },
+            {
+                title: 'Website',
+                link: 'https://shoq.ai',
+            }
 
         ],
     },
@@ -59,8 +63,8 @@ export const projects = [
         ],
         links: [
             {
-                title: '',
-                link: '',
+                title: 'Play Market',
+                link: 'https://play.google.com/store/apps/details?id=thousand.product.islamquiz&hl=ru&gl=US',
             }
         ],
     },
@@ -71,7 +75,12 @@ export const projects = [
         tags: [
             'PHP', 'Laravel', 'Node.js', 'Websocket', 'Redis Pub/Sub', 'REST',
         ],
-        links: [],
+        links: [
+            {
+                title: 'GitHub',
+                link: 'https://github.com/arstoktarov/boschgame',
+            }
+        ],
     }
 ];
 
@@ -86,7 +95,7 @@ export const frontProjects = [
         links: [
             {
                 title: 'GitHub',
-                link: 'https://github.com/'
+                link: 'https://github.com/arstoktarov/shoq.ai-front'
             },
 
         ],
@@ -101,7 +110,7 @@ export const frontProjects = [
         links: [
             {
                 title: 'GitHub',
-                link: 'https://github.com/'
+                link: 'https://github.com/arstoktarov/portfolio'
             },
 
         ],
@@ -118,8 +127,8 @@ export const backProjects = [
         ],
         links: [
             {
-                title: '',
-                link: '',
+                title: 'Play Market',
+                link: 'https://play.google.com/store/apps/details?id=thousand.product.islamquiz&hl=ru&gl=US',
             }
         ],
     },
@@ -130,7 +139,12 @@ export const backProjects = [
         tags: [
             'PHP', 'Laravel', 'Node.js', 'Websocket', 'Redis Pub/Sub', 'REST',
         ],
-        links: [],
+        links: [
+            {
+                title: 'Github',
+                link: 'https://github.com/arstoktarov/boschgame'
+            }
+        ],
     }
 ];
 
@@ -150,4 +164,22 @@ export const contactMedia = [
         title: 'arstoktarov',
         link: 'https://github.com/arstoktarov',
     }
+];
+
+export const media = [
+    {
+        icon: discord,
+        title: 'hypocrite#0554',
+        link: 'https://discordapp.com/users/529777469151248384'
+    },
+    {
+        icon: github_icon,
+        title: 'arstoktarov',
+        link: 'https://github.com/arstoktarov',
+    },
+    {
+        icon: linked_icon,
+        title: 'arsen-toktarov',
+        link: 'https://www.linkedin.com/in/arsen-toktarov-609524158/',
+    },
 ];

@@ -21,7 +21,7 @@ const ContactsPage = () => {
                     {
                         contactMedia.map((media, index) => (
                             <div key={index} className='flex flex-row items-center mr-8'>
-                                <div className='w-[30px] h-[30px] overflow-hidden flex justify-center items-center'>
+                                <div className='w-[25px] h-[25px] overflow-hidden flex justify-center items-center'>
                                 <img src={media.icon} alt='discordIcon' />
                                 </div>
                                 <div className='ml-2'>
