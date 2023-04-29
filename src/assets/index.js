@@ -8,7 +8,7 @@ import bilim_ordasy from './bilim-ordasy.jpg';
 import bosch from './bosch.jpg';
 import discord from './discord-cropped.svg';
 import email from './email-cropped.svg';
-import telegram_icon from './Telegram-cropped.svg';
+import telegram_icon from './telegram-cropped.svg';
 import github_icon from './Github-cropped.svg';
 import linked_icon from './Linkedin-cropped.svg';
 import landmark from './landmark-cropped.svg';
