@@ -2,7 +2,7 @@ import React from 'react'
 
 const PageTitle = ({title='Page', description='Description'}) => {
   return (
-    <div className=''>
+    <div className='px-4 md:px-0'>
         <div className='flex flex-row items-center'>
           <div className='flex flex-col items-start'>
             <h1 className='page-title text-[24px] text-white font-[600]'>{title}</h1>

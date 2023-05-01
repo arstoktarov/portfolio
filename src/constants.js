@@ -34,6 +34,33 @@ export const experiences = [
     ],
 ]
 
+export const knowledge = [
+    {
+        title: 'Languages',
+        content: ['PHP', 'JavaScript', 'C#'],
+    },
+    {
+        title: 'Backend',
+        content: ['Nginx', 'Apache', 'PHP', 'Laravel',],
+    },
+    {
+        title: 'Databases',
+        content: ['MYSQL', 'PostgreSQL', 'Redis', 'SQL'],
+    },
+    {
+        title: 'Other',
+        content: ['HTML', 'CSS', 'RESTApi', 'JSON', 'Websocket'],
+    },
+    {
+        title: 'Tools',
+        content: ['VSCode', 'PHPStorm', 'Git', 'GitHub', 'Bitbucket', 'Docker', 'Linux'],
+    },
+    {
+        title: 'Frameworks',
+        content: ['ReactJS', 'NodeJS', 'Laravel'],
+    },
+]
+
 export const projects = [
     {
         title: 'Shoq.ai',

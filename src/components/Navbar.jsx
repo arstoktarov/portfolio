@@ -17,6 +17,7 @@ const Navbar = () => {
                     <h1 className='text-white'>hypocr1te</h1>
                 </div>
             </div>
+            <div className='md:flex flex-1 hidden'>
                 <ul className='list-none flex justify-end items-center flex-1'>
                     <li className='mr-5'>
                         <Link to='/' className={`header-link hover:text-white ${pathname === '/' ? 'text-white' : 'text-gray-300'}`} >home</Link>
@@ -31,6 +32,7 @@ const Navbar = () => {
                         <Link to='/contacts' className={`header-link hover:text-white ${pathname === '/contacts' ? 'text-white' : 'text-gray-300'}`}>contacts</Link>
                     </li>
                 </ul>
+            </div>
             <div>
 
             </div>

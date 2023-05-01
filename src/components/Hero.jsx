@@ -31,14 +31,14 @@ const Hero = () => {
 
   return (
     <div className={`flex md:flex-row flex-col`}>
-        <div className={`flex flex-col flex-1 mt-6`}>
-            <h1 className='font-semibold ss:text-[32px] text-white' onMouseEnter={() => setNickHovered(val => !val)}>
+        <div className={`flex flex-col flex-1 md:mt-6`}>
+            <h1 className='font-semibold text-[26px] md:text-[32px] sm:text-left text-center text-white' onMouseEnter={() => setNickHovered(val => !val)}>
                 {nickname} - ReactJS <span className='text-gray-800'>front-end developer</span> with 1 year of <span className='text-gray-800'>commercial</span> experience
             </h1>
-            <p className='text-gray-300 mt-4'>
+            <p className='text-gray-300 mt-4 md:text-left text-center'>
                 He crafts responsive websites where technologies meet creativity
             </p>
-            <div className='mt-6'>
+            <div className='mt-6 flex flex-col items-center sm:items-start pb-8'>
                 <Button onClick={()=> window.open("https://t.me/arstoktarov", "_blank")} title="Contact me ->"/>
             </div>
         </div>

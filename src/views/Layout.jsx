@@ -10,7 +10,7 @@ const Layout = ({children}) => {
   }, [])
 
   return (
-    <div className='bg-primary w-full flex flex-col min-h-[100vh]'>
+    <div className='bg-primary min-h-[100vh] w-[100vw]'>
         <div className={`${styles.flexCenter}`}>
           <div className={`${styles.boxWidth}`}>
             <Navbar />

@@ -5,16 +5,16 @@ import { Link } from 'react-router-dom';
 
 const Contacts = () => {
   return (
-    <div className='flex flex-row justify-between'>
-        <div className='flex flex-row w-1/2'>
+    <div className='flex flex-col items-center md:items-start md:flex-row md:justify-between'>
+        <div className='flex flex-row md:w-1/2 px-8 md:px-0'>
             <div>
                 <p className='text-gray-300'>
                     I’m interested in freelance opportunities. However, if you have other request or question, don’t hesitate to contact me.
                 </p>
             </div>
         </div>
-        <div className='flex flex-row'>
-            <div className='flex flex-col justify-center border border-white px-6 py-4'>
+        <div className='flex flex-row mt-6 md:mt-0'>
+            <div className='flex flex-col justify-center border border-gray-300 px-6 py-4'>
                 <p className='font-600 text-white'>Message me here:</p>
                 <Link to='https://discordapp.com/users/529777469151248384' target='_blank' className='flex flex-row items-center justify-start pt-2 hover:text-white text-gray-300'>
                 <div className='w-[30px] h-[30px]'>
