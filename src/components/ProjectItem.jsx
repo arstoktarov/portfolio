@@ -11,7 +11,7 @@ const ProjectItem = ({
   ];
 
   return (
-      <div className='flex flex-col max-w-[300px] md:max-w-full'>
+      <div className='flex flex-col max-w-[300px] md:max-w-[400px]'>
         <div className="border overflow-hidden">
           <div className="p-4 min-h-[200px] bg-center bg-cover" style={{
             backgroundImage: `url(${image})`,
