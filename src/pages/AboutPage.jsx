@@ -4,8 +4,11 @@ import styles from '../style';
 import { About, PageTitle, SectionTitle } from '../components';
 import { experiences } from '../constants';
 import SkillItem from '../components/SkillItem';
+import { useTranslation } from 'react-i18next';
 
 const AboutPage = () => {
+
+  const { t } = useTranslation();
 
   const funFacts = [
     'I love playing competitive video games',
@@ -20,7 +23,7 @@ const AboutPage = () => {
     <Layout>
       <div>
         <div>
-          <PageTitle title='about-me' description='who am i?'/>
+          <PageTitle title={t("about_me")} description={t("who_am_i")}/>
         </div>
         <div className='pt-8'>
           <About />

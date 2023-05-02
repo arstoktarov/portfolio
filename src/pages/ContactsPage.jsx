@@ -4,19 +4,21 @@ import { Contacts, PageTitle, SectionTitle } from '../components'
 import { discord } from '../assets'
 import { contactMedia } from '../constants'
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 
 const ContactsPage = () => {
+    const { t } = useTranslation();
   return (
     <Layout>
         <div className='flex flex-col'>
             <div>
-                <PageTitle title='contacts' description='send me message'/>
+                <PageTitle title={t("contacts")} description={t('send_me_message')}/>
             </div>
             <div className='mt-8'>
                 <Contacts />
             </div>
             <div className=''>
-                <SectionTitle title='all-media'/>
+                <SectionTitle title={t('all_media')}/>
                 <div className='flex flex-row'>
                     {
                         contactMedia.map((media, index) => (

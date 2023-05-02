@@ -1,7 +1,9 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
 
 const SectionTitle = ({ title = 'projects', withNavigation = '', withLine = false }) => {
+  const { t } = useTranslation();
 
   return (
     <div className='py-8 px-4 md:px-0'>
@@ -17,7 +19,7 @@ const SectionTitle = ({ title = 'projects', withNavigation = '', withLine = fals
           {
             withNavigation != '' ? 
             <div className='flex justify-center items-center ml-4'>
-              <Link to={withNavigation} className='text-white'>{`View more ->`}</Link>
+              <Link to={withNavigation} className='text-white'>{t("view_more_button")}</Link>
             </div>
             :
             ''

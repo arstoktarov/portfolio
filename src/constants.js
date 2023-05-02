@@ -41,7 +41,7 @@ export const knowledge = [
     },
     {
         title: 'Backend',
-        content: ['Nginx', 'Apache', 'PHP', 'Laravel',],
+        content: ['Nginx', 'Apache', 'PHP', 'Laravel'],
     },
     {
         title: 'Databases',

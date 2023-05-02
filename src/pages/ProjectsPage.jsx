@@ -3,13 +3,15 @@ import { Layout } from '../views';
 import { PageTitle, ProjectItem, SectionTitle } from '../components';
 import styles from '../style';
 import { frontProjects, backProjects } from '../constants';
+import { useTranslation } from 'react-i18next';
 
 const ProjectsPage = () => {
+    const { t } = useTranslation();
   return (
     <Layout>
         <div className='flex flex-col'>
             <div>
-                <PageTitle title="projects" description="List of my projects"/>
+                <PageTitle title={t("projects")} description={t("list_of_projects")}/>
             </div>
             
             <div>

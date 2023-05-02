@@ -2,8 +2,10 @@ import React from 'react';
 import styles from '../style';
 import { Navbar, Hero, Portfolio, Skills, About, Contacts, Footer, SectionTitle } from '../components';
 import { Layout } from '../views';
+import { useTranslation } from 'react-i18next';
 
 const HomePage = () => {
+  const { t } = useTranslation();
 
   return (
     <Layout>
@@ -12,7 +14,7 @@ const HomePage = () => {
       </div>
       <div className='flex flex-col'>
         <div className='py-1'>
-            <SectionTitle title="projects" withLine withNavigation='/projects'/>
+            <SectionTitle title={t("projects")} withLine withNavigation='/projects'/>
         </div>
         <div>
           <Portfolio />
@@ -20,7 +22,7 @@ const HomePage = () => {
       </div>
       <div className='flex flex-col'>
         <div className='py-1'>
-            <SectionTitle title="skills" withLine/>
+            <SectionTitle title={t("skills")} withLine/>
         </div>
         <div>
           <Skills />
@@ -28,7 +30,7 @@ const HomePage = () => {
       </div>
       <div className='flex flex-col'>
         <div className='py-1'>
-            <SectionTitle title="about-me" withLine/>
+            <SectionTitle title={t("about_me")} withLine/>
         </div>
         <div>
           <About withNavigation/>
@@ -36,7 +38,7 @@ const HomePage = () => {
       </div>
       <div className='flex flex-col'>
         <div className='py-1'>
-            <SectionTitle title="contacts" withLine/>
+            <SectionTitle title={t("contacts")} withLine/>
         </div>
         <div>
           <Contacts />
