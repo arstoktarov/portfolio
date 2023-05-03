@@ -1,12 +1,14 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Navbar, Footer } from '../components';
 import styles from '../style';
-import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import Fade from '@mui/material/Fade';
+import SpeedDial from '@mui/material/SpeedDial';
+import SpeedDialIcon from '@mui/material/SpeedDialIcon';import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 
 const Layout = ({children}) => {
   const { t, i18n } = useTranslation();
+  const [isVisible, setIsVisible] = useState(false);
 
   console.log(i18n.language);
 
@@ -15,12 +17,37 @@ const Layout = ({children}) => {
     i18n.changeLanguage(lang);
   }
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }
+
   useEffect(() => {
-    window.scrollTo(0, 0)
+    const toggleVisibility = () => {
+      console.log(isVisible);
+      console.log(window.pageYOffset);
+      if (window.pageYOffset > 500) {
+        setIsVisible(true);
+      } else {
+        setIsVisible(false);
+      }
+    };
+
+
+    window.addEventListener("scroll", toggleVisibility);
+
+    return () => window.removeEventListener("scroll", toggleVisibility);
+    scrollToTop();
   }, [])
 
   return (
-      <div className='bg-primary min-h-[100vh] w-[100vw] relative'>
+      <div className='bg-primary min-h-[100vh] relative'>
           <div>
             <div className={`${styles.flexCenter}`}>
               <div className={`${styles.boxWidth}`}>
@@ -55,6 +82,18 @@ const Layout = ({children}) => {
               </div>
             </div>
 
+
+            <SpeedDial
+              ariaLabel="SpeedDial basic example"
+              sx={{ position: 'fixed', bottom: 16, right: 16 }}
+              icon={<ArrowUpwardIcon />}
+              FabProps={{
+                color: 'error',
+              }}
+              hidden={!isVisible}
+              onClick={() => {scrollToTop()}}
+            >
+            </SpeedDial>
           </div>
       </div>
   )

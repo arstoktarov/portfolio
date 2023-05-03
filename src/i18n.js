@@ -32,7 +32,7 @@ i18n.use(initReactI18next).init({
             about_me_description: `Hello, i’m Arsen!
             \nI’m a self-taught front-end developer based in Almaty, Kazakhstan. I can develop responsive websites from scratch and raise them into modern user-friendly web experiences. 
             \nTransforming my creativity and knowledge into a websites has been my passion for over a year. I have been helping various clients to establish their presence online. I always strive to learn about the newest technologies and frameworks.`,
-            contacts_description: "ATM I’m interested in full-time job. However, if you have other request or question, don’t hesitate to contact me.",
+            contacts_description: "ATM I’m interested in full-time job. However, if you have other requests or questions, don’t hesitate to contact me.",
 
             Languages: 'Languages',
             Backend: 'Backend',
