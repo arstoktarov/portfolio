@@ -16,7 +16,7 @@ const AboutPage = () => {
     'I grew up in 3 different cities',
     'I`ve never experienced travelling',
     'I graduated from the IIT University',
-    'I live in Almaty, Kazakhstan'
+    'I live in Almaty, Kazakhstan',
   ];
 
   return (
