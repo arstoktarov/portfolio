@@ -32,7 +32,7 @@ i18n.use(initReactI18next).init({
             about_me_description: `Hello, i’m Arsen!
             \nI’m a self-taught front-end developer based in Almaty, Kazakhstan. I can develop responsive websites from scratch and raise them into modern user-friendly web experiences. 
             \nTransforming my creativity and knowledge into a websites has been my passion for over a year. I have been helping various clients to establish their presence online. I always strive to learn about the newest technologies and frameworks.`,
-            contacts_description: "ATM I’m interested in full-time job. However, if you have other requests or questions, don’t hesitate to contact me.",
+            contacts_description: "ATM I have a full-time job. However, if you have other requests or questions, don’t hesitate to contact me.",
 
             Languages: 'Languages',
             Backend: 'Backend',
@@ -67,7 +67,7 @@ i18n.use(initReactI18next).init({
           \nРаботать и учавствовать в разработке разнообразных приложений является моей страстью на протяжении 3-ех лет. В процессе я успел наработать навыки как Back-end, так и Front-end разработки. 
           Зачастую я работал над образовательными проектами, так как возможность быть полезным обществу выглядит для меня как самая высшая награда.
           \nЯ всегда рад и заинтересован изучать новые технологии и фреймворки. Сейчас сфокусирован на изучении ReactJS, TailwindCSS, Vite.`,
-          contacts_description: "В данный момент я заинтересован в фул-тайм работе и возможности расти вместе с компанией. Но если у вас есть вопросы или интересное предложение, дайте мне знать :)",
+          contacts_description: "В данный момент я работаю в компании в фул-тайм режиме. Но если у вас есть какие-нибудь вопросы, дайте мне знать :)",
 
           Languages: 'Языки',
           Backend: 'Backend',
@@ -102,7 +102,7 @@ i18n.use(initReactI18next).init({
           \nӘртүрлі қосымшаларды әзірлеу мен белсенді қатысу 3 жыл бойы менің құштарлы ісім болып келді. 
           Орындаған жобаларымның көп бөлігі білім беру саласында болып келеді, өйткені қоғамға пайдалы бола алу мүмкіндігі мен үшін ең үлкен құндылық болып көрінеді.
           \nМен ардайым жаңа технологиялар мен фреймворктарды үйренуге ашықпын. Қазір белсенді түрде ReactJS, TailwindCSS, Vite технологияларымен айналысудамын.`,
-          contacts_description: "Қазіргі уақытта мен толық күнді тұрақты жұмыста мүдделімін. Бірақ сізде сұрағыңыз әлде қызықты ұсыныстарыңыз болса, маған хабарлассаңыз болады.",
+          contacts_description: "Қазіргі уақытта мен толық күнді тұрақты жұмыста iстеймiн. Бірақ сізде сұрағыңыз болса, маған хабарлассаңыз болады.",
 
           Languages: 'Тілдер',
           Backend: 'Backend',
