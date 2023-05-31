@@ -1,5 +1,5 @@
 # Profile/Portfolio project made using ReactJS/Tailwind/Vite
-# Design inspired by https://www.figma.com/file/FY5ahab5jxG8RoecLP45eZ/Portfolio-(Community)?type=design&node-id=0-1&t=a1CItNCtUsipu0Gx-0
+## Design inspired by [Elias portfolio design](https://www.figma.com/file/FY5ahab5jxG8RoecLP45eZ/Portfolio-(Community)?type=design&node-id=0-1&t=AxPGsUNwRIUjkqeJ-0)
 
 ## Deployment:
 
