@@ -3,6 +3,7 @@ import styles from '../style';
 import { hacker } from '../assets';
 import { Button } from '../components';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
     const nick = "HYPOCR1TE";
@@ -34,7 +35,7 @@ const Hero = () => {
   return (
     <div className={`flex md:flex-row flex-col`}>
         <div className={`flex flex-col flex-1 md:mt-6`}>
-            <h1 className='font-semibold text-[26px] md:text-[32px] sm:text-left text-center text-white' onMouseEnter={() => setNickHovered(val => !val)}>
+            <h1 className='font-semibold px-8 md:px-0 text-[26px] md:text-[32px] sm:text-left text-center text-white' onMouseEnter={() => setNickHovered(val => !val)}>
                 {nickname} - {t("hero_title_one")} <span className='text-gray-800'>{t("hero_title_two")}</span> {t("hero_title_three")} <span className='text-gray-800'>{t("hero_title_four")}</span> 
             </h1>
             <p className='text-gray-300 mt-4 md:text-left text-center'>
@@ -51,7 +52,7 @@ const Hero = () => {
             </div>
             <div className='flex flex-row items-center border border-gray-300 outline-1 outline-white px-2 py-1 min-w-[340px]'>
                 <div className='w-[12px] h-[12px] block bg-gray-800 mr-2' />
-                <p className='text-gray-300'>{t("active_job")}<span className='text-white'>Portfolio</span></p>
+                <p className='text-gray-300'>{t("active_job")}<span className='text-white'><Link className='underline' to="https://www.divtech.kz/">DivTech</Link></span></p>
             </div>
         </div>
     </div>
