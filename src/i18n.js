@@ -12,7 +12,7 @@ i18n.use(initReactI18next).init({
         translation: {
             hero_title_one: "ReactJS",
             hero_title_two: "FullStack developer",
-            hero_title_three: "with 2 years of",
+            hero_title_three: "with 4 years of",
             hero_title_four: "commercial experience",
             hero_description: "He crafts responsive websites where technologies meet creativity",
             home: "home",
@@ -46,7 +46,7 @@ i18n.use(initReactI18next).init({
         translation: {
           hero_title_one: "ReactJS",
           hero_title_two: "FullStack разработчик",
-          hero_title_three: "с 2-мя годами опыта",
+          hero_title_three: "с 4-мя годами опыта",
           hero_title_four: "коммерческой разработки",
           hero_description: "Он разрабатывает веб-сайты где технологии сочетаются с креативом",
           home: "главная",
@@ -81,7 +81,7 @@ i18n.use(initReactI18next).init({
       translation: {
         hero_title_one: "ReactJS",
           hero_title_two: "FullStack бағларлаушысы,",
-          hero_title_three: "2 жылдық",
+          hero_title_three: "4 жылдық",
           hero_title_four: "коммерциялық әзірлеу тәжірибесімен",
           hero_description: "Ол технологиялар мен креативты уйлестіре веб-сайттар жасайды.",
           home: "басты бет",
