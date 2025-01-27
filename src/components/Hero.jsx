@@ -52,7 +52,7 @@ const Hero = () => {
             </div>
             <div className='flex flex-row items-center border border-gray-300 outline-1 outline-white px-2 py-1 min-w-[340px]'>
                 <div className='w-[12px] h-[12px] block bg-gray-800 mr-2' />
-                <p className='text-gray-300'>{t("active_job")}<span className='text-white'><Link className='underline' to="https://www.divtech.kz/">DivTech</Link></span></p>
+                <p className='text-gray-300'>{t("active_job")}<span className='text-white'><Link className='underline' to="https://lombard-b.kz/">White Lombard</Link></span></p>
             </div>
         </div>
     </div>
